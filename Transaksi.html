@@ -103,9 +103,9 @@
         document.addEventListener("DOMContentLoaded", function () {
             // Periksa status login
             const isLoggedIn = localStorage.getItem('isLoggedIn');
-            if (isLoggedIn !== 'true') {
+            if (isLoggedIn !== 'false') {
                 alert('Anda harus login terlebih dahulu untuk mengakses halaman ini.');
-                window.location.href = 'C:/Users/USER/TUGAS PEMROGRAMAN WEB/Login.html'; // Arahkan ke halaman login
+                window.location.href = 'Login.html'; // Arahkan ke halaman login
                 return;
             }
 
